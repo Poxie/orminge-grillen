@@ -56,7 +56,7 @@ export default function HomeMenuHeader() {
 
         const { top } = section.getBoundingClientRect();
 
-        const offset = ref.current.offsetHeight + BANNER_OFFSET;
+        const offset = ref.current.offsetHeight + getBannerOffset();
 
         if(section) {
             window.scrollTo({ 
@@ -68,7 +68,7 @@ export default function HomeMenuHeader() {
 
     return(
         <div 
-            className="sticky bg-primary border-b-[1px] border-b-secondary"
+            className="sticky bg-primary border-b-[1px] border-b-tertiary"
             style={{ top: bannerOffset }}
         >
             <ul className="sm:main-width px-6 sm:p-0 flex gap-5 overflow-auto" ref={ref}>
