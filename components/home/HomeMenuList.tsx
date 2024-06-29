@@ -11,7 +11,7 @@ export default function HomeMenuList() {
     }
 
     return(
-        <div className="bg-secondary">
+        <div className="p-section pt-0 bg-secondary">
             <ul className="main-width">
                 {Object.entries(itemsByCategories).map(([category, items]) => (
                     <li 
