@@ -18,10 +18,10 @@ export default function HomeHero() {
                 />
             </div>
             <div className="main-width flex flex-col justify-center items-center">
-                <h1 className="text-4xl md:text-6xl text-light font-medium">
+                <h1 className="text-4xl md:text-5xl text-light font-medium">
                     {TITLE}
                 </h1>
-                <p className="w-[600px] max-w-full mt-3 md:mt-6 text-center text-2xl md:text-3xl text-light">
+                <p className="w-[600px] max-w-full mt-3 md:mt-6 text-center text-xl md:text-2xl text-light">
                     {SUBTITLE}
                 </p>
                 <HomeHeroButtons />
