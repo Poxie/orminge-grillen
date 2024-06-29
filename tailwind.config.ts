@@ -19,6 +19,12 @@ const config: Config = {
         muted: '#475569',
         light: '#fff',
       },
+      width: {
+        main: '1100px',
+      },
+      maxWidth: {
+        main: '90%',
+      }
     },
   },
   plugins: [],
