@@ -16,7 +16,7 @@ export default function HomeHeroButtons() {
     }
 
     return(
-        <div className="[--button-width:100%] sm:[--button-width:12rem] w-full mt-8 md:mt-10 flex justify-center flex-col sm:flex-row gap-2 sm:gap-4">
+        <div className="[--button-width:100%] sm:[--button-width:12rem] w-full mt-6 md:mt-10 flex justify-center flex-col sm:flex-row gap-2 sm:gap-4">
             <Button 
                 className="w-[--button-width]"
                 href={`tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER}`}
