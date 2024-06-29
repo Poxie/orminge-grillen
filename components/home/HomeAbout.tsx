@@ -9,8 +9,8 @@ export default function HomeAbout() {
             <HomeSectionHeader>
                 Beställ & Hitta
             </HomeSectionHeader>
-            <div className="main-width md:flex border-[1px] border-tertiary rounded-lg">
-                <div className="flex-1 p-6 pr-0 text-muted">
+            <div className="main-width md:flex border-[1px] border-tertiary rounded-lg overflow-hidden">
+                <div className="flex-1 p-6 md:pr-0 text-muted">
                     <SectionHeader>
                         Beställ
                     </SectionHeader>
