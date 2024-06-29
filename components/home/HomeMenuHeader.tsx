@@ -68,7 +68,7 @@ export default function HomeMenuHeader() {
 
     return(
         <div 
-            className="sticky bg-primary"
+            className="sticky bg-primary border-b-[1px] border-b-secondary"
             style={{ top: bannerOffset }}
         >
             <ul className="sm:main-width px-6 sm:p-0 flex gap-5 overflow-auto" ref={ref}>
