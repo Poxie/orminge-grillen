@@ -24,6 +24,12 @@ const config: Config = {
       },
       maxWidth: {
         main: '90%',
+      },
+      borderColor: {
+        primary: '#fff',
+        secondary: '#F2F2F2',
+        tertiary: '#E1E1E1',
+        quaternary: '#DADADA',
       }
     },
   },
