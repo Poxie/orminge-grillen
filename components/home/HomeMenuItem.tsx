@@ -4,7 +4,7 @@ export default function HomeMenuItem({ item: { name, description, price } }: {
     item: MenuItem;
 }) {
     return(
-        <div className="py-3 px-3 -mx-3 flex justify-between items-center hover:bg-tertiary rounded-md transition-colors">
+        <div className="py-3 px-3 -mx-3 flex justify-between sm:items-center gap-4 hover:bg-tertiary rounded-md transition-colors">
             <div className="grid">
                 <span className="text-lg font-medium">
                     {name}
@@ -13,7 +13,7 @@ export default function HomeMenuItem({ item: { name, description, price } }: {
                     {description}
                 </span>
             </div>
-            <span className="font-medium">
+            <span className="mt-0.5 sm:mt-0 font-medium">
                 {price}kr
             </span>
         </div>

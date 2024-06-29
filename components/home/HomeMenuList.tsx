@@ -12,7 +12,7 @@ export default function HomeMenuList() {
 
     return(
         <div className="p-section pt-0 bg-secondary">
-            <ul className="main-width">
+            <ul className="sm:main-width px-6 sm:p-0">
                 {Object.entries(itemsByCategories).map(([category, items]) => (
                     <li 
                         data-category={category}

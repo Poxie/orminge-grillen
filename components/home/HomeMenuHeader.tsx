@@ -71,7 +71,7 @@ export default function HomeMenuHeader() {
             className="sticky bg-primary"
             style={{ top: bannerOffset }}
         >
-            <ul className="main-width flex gap-5 overflow-auto" ref={ref}>
+            <ul className="sm:main-width px-6 sm:p-0 flex gap-5 overflow-auto" ref={ref}>
                 {categories.map(categrory => {
                     const isActive = categrory === activeCategory;
 
