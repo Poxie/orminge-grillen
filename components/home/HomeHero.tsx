@@ -25,6 +25,13 @@ export default function HomeHero() {
                     {SUBTITLE}
                 </p>
                 <HomeHeroButtons />
+                <a 
+                    className="mt-4 text-light hover:underline"
+                    href={process.env.NEXT_PUBLIC_FOODORA_LINK}
+                    target="_blank"
+                >
+                    Beställ med Foodora
+                </a>
             </div>
         </section>
     )
