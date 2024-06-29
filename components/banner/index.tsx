@@ -1,6 +1,5 @@
 import React from "react";
 
-const MAPS_LINK = "https://www.google.com/maps/search/?api=1&query=ormingegrillen";
 export default function Banner() {
     const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER;
     const adress = process.env.NEXT_PUBLIC_ADRESS;
@@ -25,7 +24,7 @@ export default function Banner() {
                     </span>
                     <a 
                         className="hover:underline"
-                        href={MAPS_LINK}
+                        href={process.env.NEXT_PUBLIC_MAPS_LINK}
                         target="_blank"
                     >
                         {adress}

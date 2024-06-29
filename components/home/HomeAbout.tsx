@@ -3,8 +3,6 @@ import HomeSectionHeader from "./HomeSectionHeader";
 import FoodoraIcon from "@/assets/icons/FoodoraIcon";
 import PhoneIcon from "@/assets/icons/PhoneIcon";
 
-const MAPS_LINK = `https://www.google.com/maps/search/?api=1&query=ormingegrillen`;
-const IFRAME_SRC = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035.403091380689!2d18.25476881215915!3d59.326223811164056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f822104be85d5%3A0x77fcae8c57be5fff!2sOrmingegrillen!5e0!3m2!1ssv!2sse!4v1719701060299!5m2!1ssv!2sse`;
 export default function HomeAbout() {
     return(
         <section className="p-section">
@@ -35,7 +33,7 @@ export default function HomeAbout() {
                         Hitta hit
                     </SectionHeader>
 
-                    <AboutLink href={MAPS_LINK}>
+                    <AboutLink href={process.env.NEXT_PUBLIC_MAPS_LINK}>
                         <PlaceIcon className="w-5" />
                         {process.env.NEXT_PUBLIC_ADRESS}
                     </AboutLink>
@@ -61,7 +59,10 @@ export default function HomeAbout() {
                         </span>
                     </div>
                 </div>
-                <iframe className="w-full md:w-2/5 aspect-video" src={IFRAME_SRC}></iframe>
+                <iframe 
+                    className="w-full md:w-2/5 aspect-video" 
+                    src={process.env.NEXT_PUBLIC_IFRAME_SRC}
+                />
             </div>
         </section>
     )

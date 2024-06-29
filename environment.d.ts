@@ -7,6 +7,8 @@ declare global {
             NEXT_PUBLIC_OPEN_SATURDAY: string;
             NEXT_PUBLIC_OPEN_SUNDAY: string;
             NEXT_PUBLIC_FOODORA_LINK: string;
+            NEXT_PUBLIC_MAPS_LINK: string;
+            NEXT_PUBLIC_IFRAME_SRC: string;
         }
     }
 }
