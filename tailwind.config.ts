@@ -13,6 +13,7 @@ const config: Config = {
         secondary: '#F2F2F2',
         tertiary: '#E1E1E1',
         quaternary: '#DADADA',
+        't-primary': '#0f172a',
       },
       textColor: {
         primary: '#0f172a',
@@ -30,7 +31,14 @@ const config: Config = {
         secondary: '#F2F2F2',
         tertiary: '#E1E1E1',
         quaternary: '#DADADA',
-      }
+        't-primary': '#0f172a',
+      },
+      backgroundImage: {
+        lines: 'linear-gradient(to right, #C4C4C4 33%, rgba(255,255,255,0) 0%)',
+      },
+      padding: {
+        section: '5.25rem 0',
+      },
     },
   },
   plugins: [],

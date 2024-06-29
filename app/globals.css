@@ -6,4 +6,7 @@
   .main-width {
     @apply w-main max-w-main mx-auto;
   }
+  .dotted-line {
+    @apply bg-lines bg-repeat-x bg-bottom bg-[length:20px_4px]
+  }
 }
