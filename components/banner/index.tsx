@@ -11,7 +11,7 @@ export default function Banner() {
         { title: 'Söndag', hours: process.env.NEXT_PUBLIC_OPEN_SUNDAY },
     ]
     return(
-        <div className="bg-primary sticky top-0">
+        <div className="z-20 sticky top-0 bg-primary border-b-[1px] border-b-tertiary">
             <div className="main-width py-3 flex items-center gap-1 flex-col md:flex-row md:justify-between bg-primary text-primary text-sm">
                 <div className="flex gap-1">
                     <a 
