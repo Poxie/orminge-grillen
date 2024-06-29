@@ -12,7 +12,7 @@ export default function Banner() {
     return(
         <div className="z-20 sticky top-0 bg-primary border-b-[1px] border-b-tertiary">
             <div className="main-width py-3 flex items-center gap-1 flex-col md:flex-row md:justify-between bg-primary text-primary text-sm">
-                <div className="flex gap-1">
+                <div className="flex gap-2">
                     <a 
                         href={`tel:${phoneNumber}`}
                         className="hover:underline"
@@ -30,7 +30,7 @@ export default function Banner() {
                         {adress}
                     </a>
                 </div>
-                <div className="flex gap-1">
+                <div className="flex gap-2">
                     {hours.map((hour, index) => (
                         <React.Fragment key={index}>
                             {index !== 0 && (
