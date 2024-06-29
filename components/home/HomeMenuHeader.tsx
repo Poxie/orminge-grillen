@@ -4,16 +4,16 @@ import { useEffect, useRef, useState } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 const BANNER_OFFSET = 44;
-const MOBILE_BANNER_OFFSET = 68;
+const MOBILE_BANNER_OFFSET = 69;
 export default function HomeMenuHeader() {
     const categories = menu.map(item => item.category);
 
     const [activeCategory, setActiveCategory] = useState(categories[0]);
-    const [bannerOffset, setBannerOffset] = useState(getBannerOffset());
+    const [bannerOffset, setBannerOffset] = useState(BANNER_OFFSET);
 
     const ref = useRef<HTMLUListElement>(null);
 
-    function getBannerOffset() {
+    const getBannerOffset = () => {
         if(typeof window === 'undefined') return BANNER_OFFSET;
         return window.innerWidth >= 768 ? BANNER_OFFSET : MOBILE_BANNER_OFFSET;
     };
@@ -21,10 +21,11 @@ export default function HomeMenuHeader() {
         const onResize = () => {
             setBannerOffset(getBannerOffset());
         }
+        onResize();
 
         window.addEventListener('resize', onResize);
         return () => window.removeEventListener('resize', onResize);
-    })
+    }, [])
 
     useEffect(() => {
         const sections = document.querySelectorAll('li[data-category]');
