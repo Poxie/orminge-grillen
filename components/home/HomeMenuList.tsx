@@ -11,7 +11,7 @@ export default function HomeMenuList() {
     }
 
     return(
-        <div className="p-section pt-0 bg-secondary">
+        <div className="p-section pt-0 bg-[url('/imgs/paper.jpg')]">
             <ul className="sm:main-width px-6 sm:p-0">
                 {Object.entries(itemsByCategories).map(([category, items]) => (
                     <li 
