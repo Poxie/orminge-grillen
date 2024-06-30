@@ -5,147 +5,142 @@
             {
                 "name": "Kebab Med Bröd",
                 "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
-                "price": "120"
+                "price": "105"
             },
             {
                 "name": "Kebabrulle",
                 "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
-                "price": "145"
-            },
-            {
-                "name": "Falafel",
-                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
-                "price": "120"
-            },
-            {
-                "name": "Falafelrulle",
-                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
-                "price": "145"
-            },
-            {
-                "name": "Falafeltallrik",
-                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås. Med mos, strips eller ris.",
-                "price": "145"
-            },
-            {
-                "name": "Gyros Med Bröd",
-                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
-                "price": "120"
-            },
-            {
-                "name": "Gyrossallad",
-                "description": "Med blandade grönsaker",
-                "price": "145"
-            },
-            {
-                "name": "Gyrostallrik",
-                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås. Med strips, mos eller ris",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Kebabtallrik",
                 "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås. Med mos, strips eller ris.",
-                "price": "145"
+                "price": "130"
+            },
+            {
+                "name": "Falafel",
+                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
+                "price": "105"
+            },
+            {
+                "name": "Falafelrulle",
+                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
+                "price": "130"
+            },
+            {
+                "name": "Falafeltallrik",
+                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås. Med mos, strips eller ris.",
+                "price": "130"
+            },
+            {
+                "name": "Gyros Med Bröd",
+                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås.",
+                "price": "105"
+            },
+            {
+                "name": "Gyrostallrik",
+                "description": "Sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås. Med strips, mos eller ris",
+                "price": "130"
             },
             {
                 "name": "Mixtallrik",
                 "description": "Kebab & gyros med sallad, lök, gurka, tomat, feforoni, röd sås och vitlökssås, strips, mos eller ris",
-                "price": "155"
+                "price": "140"
             }
         ]
     },
     {
-        "category": "Högrevsburgare",
+        "category": "Högrevsburgare Meny",
         "items": [
             {
                 "name": "Bbq-Bea",
                 "description": "Bbq-bearnaise, sallad, lök, tomat, senap, ketchup. 160g",
-                "price": "125"
+                "price": "140"
             },
             {
                 "name": "Orminge",
                 "description": "Stepsallad, rostad lök, sallad, senap och ketchup. 160g",
-                "price": "125"
+                "price": "140"
             },
             {
                 "name": "Mysklubban",
                 "description": "Tryffelmajonnäs, sallad, karameliserad lök och cheddarost. 160g",
-                "price": "130"
+                "price": "150"
             },
             {
                 "name": "Tripple Cheese",
                 "description": "Edamer, pepparjack, cheddar, sallad, rödlök, skivad gurka, fransk dressing. 160g",
-                "price": "130"
+                "price": "150"
             },
             {
                 "name": "Double Cheese N Bacon",
                 "description": "Hamburgerdressing, sallad, cheddarost, bacon, lök. 320g",
-                "price": "175"
+                "price": "195"
             },
             {
                 "name": "Markoolio Burgare",
                 "description": "Hamburgardressing, krispsallad, mycket rå lök, senap, ketchup, trippel cheddarost",
-                "price": "130"
+                "price": "150"
             }
         ]
     },
     {
-        "category": "Hamburgare",
+        "category": "Hamburgare Meny",
         "items": [
             {
                 "name": "Hamburgare 60g",
                 "description": "Med dressing, sallad, lök, ketchup och senap.",
-                "price": "83"
+                "price": "55"
             },
             {
                 "name": "Hamburgare 90g",
                 "description": "Med dressing, sallad, lök, ketchup och senap.",
-                "price": "93"
+                "price": "65"
             },
             {
                 "name": "Hamburgare 150g",
                 "description": "Med dressing, sallad, lök, ketchup och senap.",
-                "price": "103"
-            },
-            {
-                "name": "Kycklingburgare",
-                "description": "Med senapsdressing, sallad, tomat, lök",
-                "price": "110"
+                "price": "80"
             },
             {
                 "name": "Hamburgare 200g",
                 "description": "Med dressing, sallad, lök, ketchup och senap.",
-                "price": "113"
+                "price": "125"
+            },
+            {
+                "name": "Kycklingburgare",
+                "description": "Med senapsdressing, sallad, tomat, lök",
+                "price": "115"
             },
             {
                 "name": "Halloumiburgare",
                 "description": "Sweet chili majonnäs, picklad rödlök, sallad, tomat",
-                "price": "110"
+                "price": "120"
             },
             {
                 "name": "Mexicanaburgare",
                 "description": "Med ost, jalapenos, hot mexicana dressing",
-                "price": "115"
+                "price": "125"
             },
             {
                 "name": "Cajunburgare",
                 "description": "Starkt kryddad",
-                "price": "115"
+                "price": "125"
             },
             {
                 "name": "Dunderburgare 150g",
                 "description": "Med ost, bacon, räksallad, ägg",
-                "price": "145"
+                "price": "155"
             },
             {
                 "name": "Fiskburgare",
                 "description": "Med remouladsås, sallad, tomat, lök",
-                "price": "100"
+                "price": "115"
             },
             {
                 "name": "Green Burger",
                 "description": "Hamburgerdressing, sallad, tomat, lök",
-                "price": "100"
+                "price": "115"
             }
         ]
     },
@@ -155,112 +150,137 @@
             {
                 "name": "Lyxrulle",
                 "description": "Kokt eller grillad korv med räksallad, potatismos, rå lök, ketchup och senap",
-                "price": "125"
+                "price": "110"
             },
             {
                 "name": "Jätterullar",
                 "description": "Med valfri tjockkorv, räksallad",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Gourmetrulle",
                 "description": "Med rostbiff och stepsallad",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Lövsteksrulle",
                 "description": "Lövstek med potatismos, räksallad, rostad lök, tomat, ketchup och senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Londonrulle",
                 "description": "Friterad fiskfilé med potatismos, remouladsås, rostad lök och tomat",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Kycklingsatérulle",
                 "description": "Marinerad kyckling med potatismos, stepsallad, sweet chili, rå lök, tomat",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Halloumirulle",
                 "description": "Sweet chilimajonäs, picklad rödlök, tomat, potatismos",
-                "price": "150"
+                "price": "135"
             },
             {
                 "name": "Frukostrulle",
                 "description": "Frukostkorv med potatismos, stepsallad, rostad lök, ketchup och senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Bratwurstrulle",
                 "description": "Bratwurst med potatismos, stepsallad, rostad lök, ketchup och senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Värstingrulle",
                 "description": "Rökt stark korv med potatismos, bostongurka, rå lök, tomat och stark senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Polisrulle",
                 "description": "Kabanossen med potatismos, bostongurka, stark senap, curryketchup, rå lök, tomat och sweet chili",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Chorizorulle",
                 "description": "Kryddstark korv med potatismos, majonäsgurka, rå lök, tomat och stark senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Megarulle",
                 "description": "2 Valfri tjocka korvar, med räksallad, rostad lök, potatismos, ketchup och senap",
-                "price": "185"
+                "price": "170"
             },
             {
                 "name": "Lammkorvsrulle",
                 "description": "Lammkorv med vitlöksdressing, rödlök, tomat, potatismos, ketchup och senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Sagoharerulle",
                 "description": "Grillad korv med bacon, räksallad, potatismos, rostad lök, tomat, ketchup och senap",
-                "price": "140"
+                "price": "130"
+            },
+            {
+                "name": "Gretarulle",
+                "description": "Rostbiff med potatismos, senapsmajonnäs, tomat, sallad, stekt lök och gurka",
+                "price": "130"
             },
             {
                 "name": "Michaelarulle",
                 "description": "Rostbiff med potatismos, bearnaisesås, tomat och rå lök",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Papparullen",
                 "description": "Chorizo, kabanossen, bacon, currydressing, potatismos, rostad lök",
-                "price": "185"
+                "price": "170"
             },
             {
                 "name": "Bombayrulle",
                 "description": "Friterad kyckling med potatismos, currydressing, sweet chili, rostad lök och tomat",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Cajunrulle",
                 "description": "Med stepsallad, potatismos, rostad lök, ketchup och senap",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Kennethrulle",
                 "description": "Marinerad kycklingfilé med currydressing, sweet chili, tomat, potatismos, lök och bacon",
-                "price": "145"
+                "price": "130"
             },
             {
                 "name": "Vegorulle",
                 "description": "Med vegokorv, potatismos, senap, ketchup och stepsallad",
-                "price": "125"
+                "price": "110"
             },
             {
                 "name": "Jarrisrulle",
                 "description": "Hamburgardressing, stockholmare, senap, ketchup, rostadlök sallad, potatismos",
-                "price": "145"
+                "price": "130"
+            }
+        ]
+    },
+    {
+        "category": "Sallad",
+        "items": [
+            {
+                "name": "Gyrosallad",
+                "description": "",
+                "price": "130"
+            },
+            {
+                "name": "Kebabsallad",
+                "description": "",
+                "price": "130"
+            },
+            {
+                "name": "Falafelsallad",
+                "description": "",
+                "price": "130"
             }
         ]
     },
@@ -268,54 +288,54 @@
         "category": "Korvar",
         "items": [
             {
+                "name": "Kokt Korv",
+                "description": "",
+                "price": "från 25"
+            },
+            {
                 "name": "Grillad Korv",
                 "description": "En smakrik och saftig korv som är grillad till perfektion",
-                "price": "50"
+                "price": "från 25"
             },
             {
                 "name": "Stockholmare",
                 "description": "Korv",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Kabanoss",
                 "description": "Serveras med tillbehör",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Lammkorv",
                 "description": "Serveras med tillbehör",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Tjockkorv",
                 "description": "Smakrik favorit som tillfredsställer den hungrigaste aptiten",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Bratwurst",
                 "description": "Serveras med tillbehör",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Smal Special",
                 "description": "Kokt eller grillad med bröd och mos",
-                "price": "77"
-            },
-            {
-                "name": "Kokt Korv",
-                "description": "",
                 "price": "50"
             },
             {
                 "name": "Väsrtingkorv",
                 "description": "",
-                "price": "80"
+                "price": "från 50"
             },
             {
                 "name": "Chorizo",
                 "description": "",
-                "price": "80"
+                "price": "från 50"
             }
         ]
     },
@@ -325,22 +345,22 @@
             {
                 "name": "Köttbullar",
                 "description": "Med mos, lingon",
-                "price": "130"
+                "price": "115"
             },
             {
                 "name": "Lövstek",
                 "description": "Med strips och bearnaisesås",
-                "price": "135"
+                "price": "120"
             },
             {
                 "name": "Chicky Bits",
                 "description": "Med strips och currydressing",
-                "price": "130"
+                "price": "115"
             },
             {
                 "name": "Fish'n'chips",
                 "description": "Med remouladsås",
-                "price": "140"
+                "price": "130"
             }
         ]
     },
@@ -350,22 +370,22 @@
             {
                 "name": "Lökringar",
                 "description": "7 St",
-                "price": "55"
+                "price": "35"
             },
             {
                 "name": "Mozzarella Sticks",
                 "description": "4 St",
-                "price": "55"
+                "price": "35"
             },
             {
                 "name": "Toast",
                 "description": "Med ost och skinka",
-                "price": "55"
+                "price": "35"
             },
             {
                 "name": "Chiili Cheese Nuggets",
                 "description": "4 St",
-                "price": "55"
+                "price": "35"
             }
         ]
     },
@@ -375,42 +395,42 @@
             {
                 "name": "Räksallad",
                 "description": "Med blandade grönsaker",
-                "price": "35"
+                "price": "15"
             },
             {
                 "name": "Strips",
                 "description": "",
-                "price": "45"
+                "price": "35"
             },
             {
                 "name": "Potatismos",
                 "description": "",
-                "price": "45"
+                "price": "35"
             },
             {
                 "name": "Bostongurka",
                 "description": "",
-                "price": "25"
+                "price": "12"
             },
             {
                 "name": "Glutenfritt Bröd",
                 "description": "",
-                "price": "25"
+                "price": "10"
             },
             {
                 "name": "Bacon",
                 "description": "",
-                "price": "27"
+                "price": "15"
             },
             {
                 "name": "Ägg",
                 "description": "",
-                "price": "25"
+                "price": "10"
             },
             {
                 "name": "Ost",
                 "description": "",
-                "price": "22"
+                "price": "8"
             }
         ]
     }
